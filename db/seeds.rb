@@ -8,8 +8,12 @@
 
 Product.delete_all
 #
-Product.create( :title => 'Test product',
+Product.create( :title       => 'Test product',
                 :description => "Some text.\n Blabla.",
                 :image_url   => '/images/ruby.jpg',
                 :price       => 39.90 )
 #
+Product.create( :title       => 'Second',
+                :description => "Blabla.",
+                :image_url   => '/images/ruby.png',
+                :price       => 255 )
