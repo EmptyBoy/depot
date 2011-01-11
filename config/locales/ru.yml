@@ -1,0 +1,67 @@
+ru:
+
+  layouts:
+    application:
+      title:   "Книжный"
+      home:    "Домой"
+      faq:     "FAQ"
+      news:    "Новости"
+      contact: "Контакты"
+
+  store:
+    index:
+      title:   "Каталог"
+      add:     "Добавить в корзину"
+
+  carts:
+    cart:
+      title:    "Корзина"
+      empty:    "Очистить корзину"
+      checkout: "Заказать"
+
+  orders:
+    new:
+      legend:   "Введите ваши данные"
+    form:
+      name:       "Имя"
+      address:    "Адрес"
+      email:      "Email"
+      pay_type:   "Тип оплаты"
+      pay_prompt: "Выберите тип оплаты"
+      submit:     "Сделать заказ"
+
+  activerecord:
+    errors:
+      messages:
+        inclusion: "не выбран"
+        blank: "не может быть пустым"
+      models:
+        order:
+          attributes:
+            email:
+              invalid: "имеет неправильный формат"
+              
+    attributes:
+      order:
+        address: "Адрес"
+        name:    "Имя"
+        email:   "Email"
+        pay_type: "Тип оплаты"
+  errors:
+    template:
+      body:    "Список ошибок:"
+      header:
+        one:   "1 ошибка была обнаружена"
+        other: "%{count} ошибок было обнаружено"
+
+  thanks: "Спасибо за заказ"
+
+  number:
+    currency:
+      format:
+        unit:      "$"
+        precision: 2
+        separator: "."
+        delimiter: " "
+        format:    "%n&nbsp;%u"
+      
